@@ -56,5 +56,5 @@ app.delete('/delete/:id', async (req,res)=>{
 })
 
 app.listen(PORT, () => {
-    console.log(`Server is running at PORT http://localhost:${PORT}`);
+    console.log(`Server is running at PORT https://todo-list-c39c-dyorw9qq4-surbhi-ranjans-projects.vercel.app/`);
 })
