@@ -2,7 +2,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
 const Todo = require('./model/Todo')
-const PORT = https://todo-list-c39c-dyorw9qq4-surbhi-ranjans-projects.vercel.app/;
+const PORT = https://todo-list-zjh8-ree07xuzw-surbhi-ranjans-projects.vercel.app/;
 require('dotenv').config();
 
 const app = express();
