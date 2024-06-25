@@ -2,7 +2,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
 const Todo = require('./model/Todo')
-const PORT = https://todo-list-zjh8.vercel.app/;
+const PORT =4000;
 require('dotenv').config();
 
 const app = express();
@@ -56,5 +56,5 @@ app.delete('/delete/:id', async (req,res)=>{
 })
 
 app.listen(PORT, () => {
-    console.log(`Server is running`);
+    console.log(`Server is running at PORT http://localhost:${PORT}`);
 })
