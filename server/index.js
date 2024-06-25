@@ -6,13 +6,7 @@ const PORT =4000;
 require('dotenv').config();
 
 const app = express();
-app.use(cors(
-    {
-        origin: ["https://todo-list-7aq8.vercel.app","localhost:4000"],
-        methods: ["POST", "GET"],
-        credentials: true
-    }
-));
+app.use(cors());
 app.use(express.json());
 
 mongoose.connect(process.env.MONGO_URL)
