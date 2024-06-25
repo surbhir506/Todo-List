@@ -8,7 +8,7 @@ require('dotenv').config();
 const app = express();
 app.use(cors(
     {
-        origin: ["todo-list-7aq8.vercel.app","localhost:3000"],
+        origin: ["https://todo-list-7aq8.vercel.app","localhost:4000"],
         methods: ["POST", "GET"],
         credentials: true
     }
